@@ -23,12 +23,8 @@
 ## ⚡ 极速接入
 
 ### 推荐：一键配置 (支持 Ubuntu, CentOS, Debian, AlmaLinux 等)
-只需一行代码，自动识别系统并配置 `https://docker.gmssh.com` 加速源：
-
-```bash
-curl -sSL [https://raw.githubusercontent.com/GMSSH/mirror/main/install.sh](https://raw.githubusercontent.com/GMSSH/mirror/main/install.sh) | sudo bash
-
-```
+使用GMSSH应用 Docker管理器 只需点击即可完成配置
+<img width="2416" height="1432" alt="image" src="https://github.com/user-attachments/assets/3ba1d6be-04c2-4ef7-8834-aa677524c022" />
 
 ### 手动配置
 
@@ -50,8 +46,8 @@ curl -sSL [https://raw.githubusercontent.com/GMSSH/mirror/main/install.sh](https
 | 资源名称 | 官方地址 | GMSSH 加速地址 | 状态 |
 | --- | --- | --- | --- |
 | **Docker Hub** | `docker.io` | `https://docker.gmssh.com` | ✅ 极速 |
-| **GHCR** | `ghcr.io` | `https://ghcr.gmssh.com` | ✅ 运行中 |
-| **K8s Registry** | `registry.k8s.io` | `https://k8s.gmssh.com` | ✅ 运行中 |
+| **GHCR** | `ghcr.io` | `https://ghcr.gmssh.com` | ⚠️ 待支持 |
+| **K8s Registry** | `registry.k8s.io` | `https://k8s.gmssh.com` | ⚠️ 待支持 |
 
 ---
 
@@ -59,7 +55,7 @@ curl -sSL [https://raw.githubusercontent.com/GMSSH/mirror/main/install.sh](https
 
 如果您需要的镜像在加速站中未命中，请通过以下方式告诉我们：
 
-1. **[发起同步 Issue](https://www.google.com/search?q=https://github.com/GMSSH/mirror/issues/new%3Flabels%3Dsync-request%26title%3DSync:%E9%95%9C%E5%83%8F%E5%90%8D%E7%A7%B0)**
+1. **[发起同步 Issue]()**
 2. 我们的自动化机器人会在 5 分钟内完成同步，并回复加速路径。
 
 ---
@@ -73,7 +69,7 @@ GMSSH 是一款专为 AI 时代设计的 **桌面级 AI 运维终端**。
 * **AI 助手**：自动诊断终端报错，一键修复 Linux 环境问题，比 StackOverflow 更懂你的服务器。
 * **完全免费**：我们致力于为开发者提供最纯粹、最高效的运维体验。
 
-👉 [访问 GMSSH 官网](https://www.google.com/search?q=https://gmssh.com) | [加入微信交流群](https://gmb-prod-gw.oss-accelerate.aliyuncs.com/up/1/act_banner/18212068cd2ea0123d5Gv9nJK.png)
+👉 [访问 GMSSH 官网](https://gmssh.com) | [加入微信交流群](https://gmb-prod-gw.oss-accelerate.aliyuncs.com/up/1/act_banner/18212068cd2ea0123d5Gv9nJK.png)
 
 ---
 
